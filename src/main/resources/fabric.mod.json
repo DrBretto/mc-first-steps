@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "drbretto",
+  "version": "${version}",
+
+  "name": "DrBretto Mod",
+  "description": "first steps on modding",
+  "authors": [
+    "drbretto"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/drbretto/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "drbretto.drbretto.mod.DrBrettoMod"
+    ]
+  },
+  "mixins": [
+    "drbretto.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
