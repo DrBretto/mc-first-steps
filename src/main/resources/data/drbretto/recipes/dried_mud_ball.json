@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "drbretto:first_item"
+  },
+  "result": "drbretto:dried_mud_ball",
+  "experience": 10,
+  "cookingtime": 100
+}

@@ -1,0 +1,7 @@
+{
+  "variants":{
+    "": {
+      "model": "drbretto:block/mud_block"
+    }
+  }
+}
