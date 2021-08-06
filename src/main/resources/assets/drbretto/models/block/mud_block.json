@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "drbretto:block/mud_block"
+    "all": "drbretto:block/mud_block2"
   }
 }
